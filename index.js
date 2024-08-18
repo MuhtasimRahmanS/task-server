@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 // Middleware Setup
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://jobtaskscic.netlify.app/"],
+    origin: ["http://localhost:5173", "https://jobtaskscic.netlify.app"],
     credentials: true,
     optionsSuccessStatus: 200,
   })
